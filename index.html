@@ -12,11 +12,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul id="myLinks">
           <li><a href="#hero-section">Home</a></li>
           <li><a href="#products-section">Plants</a></li>
           <li><a href="#blog">Blog</a></li>
@@ -52,11 +59,7 @@
       <section class="products-section" id="products-section">
         <div class="row">
           <article class="plants">
-            <img
-              src="/Lucky Shrub/Files/home/Images/Plant1.png"
-              alt=""
-              height="300"
-            />
+            <img src="/Lucky Shrub/Files/home/Images/Plant1.png" alt="" />
             <div class="description">
               <h3>Dahlia</h3>
               <p>
@@ -71,11 +74,7 @@
             </div>
           </article>
           <article class="plants">
-            <img
-              src="/Lucky Shrub/Files/home/Images/Plant2.png"
-              alt=""
-              height="300"
-            />
+            <img src="/Lucky Shrub/Files/home/Images/Plant2.png" alt="" />
             <div class="description">
               <h3>Azalea</h3>
               <p>
@@ -90,11 +89,7 @@
             </div>
           </article>
           <article class="plants">
-            <img
-              src="/Lucky Shrub/Files/home/Images/Plant3.png"
-              alt=""
-              height="300"
-            />
+            <img src="/Lucky Shrub/Files/home/Images/Plant3.png" alt="" />
             <div class="description">
               <h3>Clementine</h3>
               <p>
@@ -111,11 +106,7 @@
         </div>
         <div class="row">
           <article class="plants">
-            <img
-              src="/Lucky Shrub/Files/home/Images/Plant4.png"
-              alt=""
-              height="300"
-            />
+            <img src="/Lucky Shrub/Files/home/Images/Plant4.png" alt="" />
             <div class="description">
               <h3>Hazel</h3>
               <p>
@@ -130,14 +121,13 @@
             </div>
           </article>
           <article class="plants">
-            <img
-              src="/Lucky Shrub/Files/home/Images/Plant5.png"
-              alt=""
-              height="300"
-            />
+            <img src="/Lucky Shrub/Files/home/Images/Plant5.png" alt="" />
             <div class="description">
               <h3>Ivy</h3>
-              <p>Lorem ipsum, dolor Variant Variant  sit amet consectetur Variant adipisicing elit!</p>
+              <p>
+                Lorem ipsum, dolor Variant Variant sit amet consectetur Variant
+                adipisicing elit!
+              </p>
             </div>
             <div class="price">
               <p>33$</p>
@@ -146,11 +136,7 @@
             </div>
           </article>
           <article class="plants">
-            <img
-              src="/Lucky Shrub/Files/home/Images/Plant6.png"
-              alt=""
-              height="300"
-            />
+            <img src="/Lucky Shrub/Files/home/Images/Plant6.png" alt="" />
             <div class="description">
               <h3>Iris</h3>
               <p>
@@ -173,9 +159,7 @@
         <div class="plant-categories">
           <div class="user-box">
             <div class="user-id">
-              <div class="user-name">
-                More popular
-              </div>
+              <div class="user-name">More popular</div>
               <div class="dropdown-arrow"></div>
               <div class="dropdown-menu">
                 <ul>
@@ -190,35 +174,84 @@
       </section>
       <section class="blog" id="blog">
         <article class="blog1">
-          <img src="/Lucky Shrub/Files/home/Images/Blog2.png" alt="">
-          <a href="">New Discovery of Sunscreen-Like Chemicals in Fossil Plants Reveals UV Radiation Played a Part in Mass Extinction Events</a>
+          <img src="/Lucky Shrub/Files/home/Images/Blog2.png" alt="" />
+          <a href=""
+            >New Discovery of Sunscreen-Like Chemicals in Fossil Plants Reveals
+            UV Radiation Played a Part in Mass Extinction Events</a
+          >
         </article>
         <article class="blog2">
-          <img src="/Lucky Shrub/Files/home/Images/Blog1.png" alt="">
-          <a href="">Ethereal Color Variant of Mysterious Plant Is Actually a New Species</a>
+          <img src="/Lucky Shrub/Files/home/Images/Blog1.png" alt="" />
+          <a href=""
+            >Ethereal Color Variant of Mysterious Plant Is Actually a New
+            Species</a
+          >
         </article>
       </section>
       <section class="about-section" id="about-section">
         <div class="about-image">
-          <img src="/Lucky Shrub/Files/home/Images/About.png" width="70%" alt="" srcset="">
+          <img
+            src="/Lucky Shrub/Files/home/Images/About.png"
+            width="70%"
+            alt=""
+            srcset=""
+          />
         </div>
         <div class="about-description">
           <h1>About us</h1>
-          <p>We are passionate about all things green and strive to provide our customers with a wide selection of high quality plants for any occasion. Our selection includes a variety of indoor and outdoor plants, as well as unique and hard-to-find species. Our team of plant experts is always available to help you choose the perfect plant for your home or office, and to offer care tips to ensure that your plants thrive. Thank you for choosing our shop and happy planting!</p>
+          <p>
+            We are passionate about all things green and strive to provide our
+            customers with a wide selection of high quality plants for any
+            occasion. Our selection includes a variety of indoor and outdoor
+            plants, as well as unique and hard-to-find species. Our team of
+            plant experts is always available to help you choose the perfect
+            plant for your home or office, and to offer care tips to ensure that
+            your plants thrive. Thank you for choosing our shop and happy
+            planting!
+          </p>
         </div>
       </section>
     </main>
     <footer>
       <div class="copyright">
-      <img src="/Lucky Shrub/Files/home/Images/Asset 2@3x.png" alt="" srcset="" width="30px">
-      <p class="copyright-description">© 2023 Lucky Shrub. All rights reserved.</p>
-    </div>
+        <img
+          src="/Lucky Shrub/Files/home/Images/Asset 2@3x.png"
+          alt=""
+          srcset=""
+          width="30px"
+        />
+        <p class="copyright-description">
+          © 2023 Lucky Shrub. All rights reserved.
+        </p>
+      </div>
       <div class="contact">
-        <img src="/Lucky Shrub/Files/home/Images/Facebook.png" alt=""  width="40px">
-        <img src="/Lucky Shrub/Files/home/Images/Instagram.png" alt="" width="40px">
-        <img src="/Lucky Shrub/Files/home/Images/Pinterest.png" alt="" width="40px">
-        <img src="/Lucky Shrub/Files/home/Images/Twitter.png" alt="" width="40px">
+        <img
+          src="/Lucky Shrub/Files/home/Images/Facebook.png"
+          alt=""
+        />
+        <img
+          src="/Lucky Shrub/Files/home/Images/Instagram.png"
+          alt=""
+        />
+        <img
+          src="/Lucky Shrub/Files/home/Images/Pinterest.png"
+          alt=""
+        />
+        <img
+          src="/Lucky Shrub/Files/home/Images/Twitter.png"
+          alt=""
+        />
       </div>
     </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
